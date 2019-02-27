@@ -1,0 +1,19 @@
+.login-box-msg, .register-box-msg
+{
+	font-size:22px;
+}
+.login-box, .register-box {
+    width: 390px !important;
+    margin: 10% auto !important;
+}
+body
+{
+	overflow-y: hidden;
+}
+
+@media(max-width:767px)
+{
+.login-box, .register-box {
+    width: 100% !important;   
+}
+}
